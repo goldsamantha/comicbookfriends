@@ -1,8 +1,14 @@
+title {
+	padding: 50 px, 10 px, 10 px, 50 px;
+	font: 20 px "Comic Sans MS", cursive, sans-serif;
+	margin: auto;
+}
+
 body {
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: 14px "Comic Sans MS", cursive, sans-serif;
 }
 
 a {
-  color: #00B7FF;
+  color: #339933;
 }

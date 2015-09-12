@@ -9,7 +9,9 @@
     <p>Comic Book Owners!</p> 
     	<ul>
 		<% for(var i=0; i<userlist.length; i++) {%>
-   			<li>hai <%= userlist[i].name %> book: <%= userlist[i].book %></li>
+   			<li><b><%= userlist[i].name %></b>
+   				<ul><%= userlist[i].books %></ul>
+   			</li>
 		<% } %>
 		</ul>
   <script type="text/javascript">
